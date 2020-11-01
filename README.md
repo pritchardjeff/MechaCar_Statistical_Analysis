@@ -21,7 +21,7 @@ The p-value of our linear regression analysis is 5.35e-11 which is much smaller 
 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-The model is statistically significant and accurate ~71% of the time, but the lack of significant variables may be evidence of overfitting. It would not be a bad idea to look into other data points until the significance of the intercept is reduced. 
+The model is statistically significant and accurate ~71% of the time, but the lack of significant variables may be evidence of overfitting. It would not be a bad idea to investigate other data points until the significance of the intercept is reduced. 
 
 
 ## Summary Statistics on Suspension
@@ -35,6 +35,41 @@ At the aggregate level, it appears that our manufacturing data meets the design 
 Once we break the data down by Manufacturing Lot, we find lot three does not meet our design specifications:
 
 ![Lot_Summary](https://github.com/pritchardjeff/MechaCar_Statistical_Analysis/blob/main/Lot_Summary.PNG)
+
+## T-Tests on Suspension Coils
+
+| Summary         | P-value       | Outcome                                   |
+| --------------- |:-------------:| -----------------------------------------:|
+| Total           | 1             | >.05, two means are statistically similar |
+| Lot1            | 1             | >.05, two means are statistically similar |
+| Lot2            | 1             | >.05, two means are statistically similar |
+| Lot3            | 1             | >.05, two means are statistically similar |
+
+
+## Study Design: MechaCar vs Competition
+
+### Metric to be tested
+
+Resale value as a % of original MSRP.
+
+### Alternative Hypothesis
+
+MechaCar vehicles retain 10% more value as a percentage of original MSRP than competitor vehicles.
+
+### Statistical test and Description
+
+We will use a Two-Sample t-Test to determine if there is a statistical difference between the distribution means of MechaCar vehicles resold as percentage of original MSRP and all other competitors as a % of original MSRP.
+
+### Data needed to complete test
+
+We will need a dataset that includes original MSRP, Vehicle Manufacturer, and most recent price sold.
+
+With this data, we will need divide the most recent price sold for each vehicle by the original MSRP to get the resale value as a % of original MSRP.
+
+We will then do a Two-Sample t-Test on the resale value as a percentage of original MSRP for MechaCar vs the total population.
+
+
+
 
 
 
