@@ -30,11 +30,13 @@ The model is statistically significant and accurate ~71% of the time, but the la
 
 At the aggregate level, it appears that our manufacturing data meets the design specifications:
 
-![Total_Summary](xxxxxx)
+![Total_Summary](https://github.com/pritchardjeff/MechaCar_Statistical_Analysis/blob/main/Total_Summary.PNG)
 
 Once we break the data down by Manufacturing Lot, we find lot three does not meet our design specifications:
 
-![Lot_Summary](xxxxxx)
+![Lot_Summary](https://github.com/pritchardjeff/MechaCar_Statistical_Analysis/blob/main/Lot_Summary.PNG)
+
+
 
 
 
